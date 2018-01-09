@@ -101,7 +101,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <p><b>HealthCare</b></p>
         <p>This app is private ,this app it's been implemented to 
            detect some diseases analysing a picture or photo taken by the mobile camera.
-           </br>To analyse the image the app use a third part library called Open Cv ,after make that recognizion the app send all the data to a web server to have data in real time.
+           </br>To analyse the image first we get the Qr code from the test using a third part library called ZbarScan,after that  the app use a third part library called Open Cv to make the analysis image process ,after make that recognizion the app send all the data to a web server to have data in real time.
            If the mobile has not internet connection ,the app save the data in a sqlite database and when te app detects through a broadcaster receiver that there is internet connection ,the app send automatically the data.(including the image taken)  .</p>
 
 
@@ -257,8 +257,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <footer class="w3-container w3-padding-32 w3-dark-grey">
   <div class="w3-row-padding">
     <div class="w3-third">
-      <h3>HOBBIES</h3>
-      <p>Programming, play guitar , play baseball, hang out with friends,to read, listen to music,travel.</p>
+      <h3>3PART LIBRARIES</h3>
+      <p> <a href="https://opencv.org/platforms/android/">Open CV</a></p>
+      <p> <a href="https://github.com/PhilJay/MPAndroidChart">MP Android Chart</a></p>
+
+      <p> <a href="https://github.com/dm77/ZBarScanner">Z Bar Scanner</a></p>
+
+      <p> <a href="https://firebase.google.com/?hl=es-419">Firebase</a></p>
+
+      
       
     </div>
   
